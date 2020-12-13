@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="/Styles/style.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <title>🍎Applee</title>
+</head>
+
+<body>
+    <header>
+        <div class="humburger mobileOnly" id="humb">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>ic_menu_24px</title>
+                <g fill="#ffffff">
+                    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+                </g>
+            </svg>
+        </div>
+        <div class="mobileLogo mobileOnly">
+            <img src="/img/mobileLogo.svg" alt="">
+        </div>
+        <div class="logo">
+            <img src="/img/logo.svg" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#ourwork">our work</a></li>
+                <li><a href="/pages/aboutus.html">about us</a></li>
+                <li><a href="/pages/contact.html">contact us</a></li>
+            </ul>
+        </nav>
+       
+        <div class="customBtn">
+            <button type="button">
+                <a href="/pages/form.html">📩Reachout</a>
+            </button>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="hero__IntroText">
+            <h1>
+                Where <br>solutions<br>comes up
+            </h1>
+        </div>
+        <div class="hero__3D-illustration">
+            <video playsinline autoplay muted id="bgvid">
+                <source src="/img/3d.mp4" type="video/webm">
+                <source src="/img/3d.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div id="container">
+        <section class="whatWeDo">
+            <div class="Title">
+                <h1 class="subHead">what we do</h1>
+            </div>
+            <div class="netch">
+                <div class="box">
+                    <h3>IOS Development</h3>
+                    <div class="img">
+                        <img src="/img/1.png" alt="imgOne">
+                    </div>
+                </div>
+                <div class="box">
+                    <h3>IOS UI Design</h3>
+                    <div class="img">
+                        <img src="/img/2.png" alt="Two">
+                    </div>
+                </div>
+                <div class="box">
+                    <h3>IOS Icon Design</h3>
+                    <div class="img">
+                        <img src="/img/3.png" alt="Three">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ourwork">
+            <div class="Title">
+                <h1 class="subHead"> OUR WORK </h1>
+            </div>
+            <div class="slider">
+                <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+
+                            <li class="glide__slide">
+                                <div class="slide">
+                                    <img src="img/slide1.jpg" alt="">
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="slide">
+                                    <img src="img/slide2.png" alt="">
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="slide">
+                                    <img src="img/slide3.jpg" alt="">
+                                </div>
+                            </li>
+                            <!-- <li class="glide__slide">
+                            <div class="slide">
+                                <img src="img/" alt="">
+                            </div>
+                        </li> -->
+                            <li class="glide__slide">
+                                <div class="slide">
+                                    <img src="img/slide5.png" alt="">
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="slide">
+                                    <img src="img/slide6.png" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="11" viewBox="0 0 20 11">
+                                <title>arrow_left [#347]</title>
+                                <g fill="#fff">
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Dribbble-Dark-Preview" transform="translate(-260 -6643)" fill="#fff">
+                                            <g id="icons" transform="translate(56 160)">
+                                                <path id="arrow_left-[#347]"
+                                                    d="M209.657 6494l1.414-1.53-3.242-3.295H224v-1.93h-16.171l3.242-2.963-1.414-1.282-5.657 5.251z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="11" viewBox="0 0 20 11">
+                                <title>arrow_right [#346]</title>
+                                <g fill="#fff">
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Dribbble-Dark-Preview" transform="translate(-300 -6643)" fill="#fff">
+                                            <g id="icons" transform="translate(56 160)">
+                                                <path id="arrow_right-[#346]"
+                                                    d="M264 6488.267l-5.657-5.267-1.414 1.217 3.243 3.01H244v1.958h16.172l-3.243 3.345 1.414 1.47z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="leftside">
+            <div class="logo">
+                <img src="/img/logo.svg" alt="">
+            </div>
+        </div>
+        <div  class="rightside">
+            <span>2020&copy; Applee </span>
+            <p>
+                Made with passion by
+                <span class="aomaf"> Aomaf </span> &amp; <span class="motwkel"> motwkel </span>
+                <p>
+        </div>
+    </footer>
+    <script src="/js/index.js"></script>
+    <script src="/node_modules/@glidejs/glide/dist/glide.js"></script>
+</body>
+<script>
+    const config = {
+        type: 'carousel',
+        startAt: 0,
+        perView: 3,
+        breakpoints: {
+            800: {
+                perView: 2
+            },
+
+            650: {
+                perView: 1
+            }
+        }
+    }
+    new Glide('.glide', config).mount()
+</script>
+
+</html>

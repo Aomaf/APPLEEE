@@ -1,0 +1,55 @@
+@import 'style.css';
+body{
+    font-family:var(--base-font-family);
+    line-height: 1.5;
+    text-align: left;
+    color: #ccc;
+}
+
+/* what we will do in image */
+section.image{
+    width: 100%;
+    height: 100%;
+}
+section.image img{
+    width: 100%;
+    height: 100%;
+}
+#main_body  {
+    margin: 30px;
+}
+#main_body .above {
+    margin-top: 50px;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+/* #main_body .above h1{
+    font-size: 30px;
+    position: relative;
+}
+#main_body .above h1::after{
+    content: '';
+    height: 5px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #e92284, #f45a45);
+    width: 5%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+} */
+
+#main_body .below{
+    margin-top: 20px;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+footer{
+    padding: 10px;
+    margin-top: 4%;
+}

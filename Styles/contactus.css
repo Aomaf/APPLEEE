@@ -1,0 +1,73 @@
+@import 'style.css';
+
+body{
+    line-height: 1.5;
+    text-align: left;
+}
+
+/* what we will do in image */
+
+section.image{
+    width: 100%;
+    height: 100%;
+}
+section.image img{
+    width: 100%;
+    height: 100%;
+}
+
+#main_body {
+    margin: 10%;
+}
+#main_body td{
+    padding-bottom: 0px;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+}
+table{
+    margin-top: 50px;
+}
+
+#main_body .text{
+    margin-left: 10px;
+    letter-spacing: 1.0px;
+    width: 50%;
+    padding-right: 50px;
+    font-size: 14px;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 4%;
+}
+
+@media screen and (max-width: 767px) {
+    .responsiveTable .text {
+        display: block;
+        width: 100%;
+
+    }    
+
+    .responsiveTable tr {    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+}
+
+.responsiveTable td {    
+display: flex;
+justify-content: space-between;
+align-items: center;
+    padding: 0;
+    margin: 1%;
+}
+
+#main_body .responsiveTable .text{
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-bottom: 40px;
+}
+}
